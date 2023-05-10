@@ -10,14 +10,15 @@ public class Main
 {
     public static void main (String args[])
     {
+        int obereGrenze = 20;
         int summe = 0;
-        for (int i = 1; i <= 10 ; ++i)
+        for (int i = 1; i <= obereGrenze ; ++i)
         {
             summe += i;
         }
         
         int mult = 1;
-        for (int i = 2 ; i <= 10 ; ++i)
+        for (int i = 2 ; i <= obereGrenze ; ++i)
         {
             mult *= i;
         }
